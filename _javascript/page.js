@@ -1,4 +1,4 @@
-import { basic, initSidebar, initTopbar } from './modules/layouts';
+import { basic, initSidebar, initTopbar, cursor } from './modules/layouts';
 import { imgExtra, initClipboard, smoothScroll } from './modules/plugins';
 
 basic();
@@ -7,3 +7,4 @@ initTopbar();
 imgExtra();
 initClipboard();
 smoothScroll();
+cursor();
