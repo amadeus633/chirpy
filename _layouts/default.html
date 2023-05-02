@@ -19,9 +19,10 @@ layout: compress
   {% include head.html %}
   
   <body data-topbar-visible="true">
+    {% include cursor.html %}
     {% include sidebar.html %}
 
-    {% include topbar.html %}<span id="circle" class="circle"></span>
+    {% include topbar.html %}
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div id="main" class="container pl-xl-4 pr-xl-4">
         {{ content }}
