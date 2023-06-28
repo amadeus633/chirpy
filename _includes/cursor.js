@@ -1,3 +1,4 @@
+<script>
 newFunction();
 function newFunction() {
   jQuery(document).ready(function () {
@@ -18,4 +19,4 @@ function newFunction() {
 
   });
 }
-
+</script>
